@@ -1,0 +1,222 @@
+.our-coverage {
+  padding: 120px 0;
+  background-color: #f4f4f4;
+}
+.our-coverage-clouds {
+  position: absolute;
+  width: 42%;
+  max-width: 800px;
+  top: -50px;
+  right: 40px;
+}
+.our-coverage-planet {
+  position: absolute;
+  width: 70%;
+  max-width: 1242px;
+  left: 51%;
+  bottom: -27%;
+}
+.map {
+  position: relative;
+  max-width: 825px;
+}
+.map-slider-wrapper {
+  display: none;
+}
+.map-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 210px;
+}
+.statistics {
+  position: relative;
+  max-width: 255px;
+  max-height: 480px;
+  margin-left: 30px;
+}
+.statistics-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+}
+.content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.statistics-title {
+  margin-bottom: 0;
+}
+.statistics-text {
+  margin-top: -8px;
+}
+.designations {
+  position: absolute;
+  left: 45%;
+  bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.designation {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 114px;
+  margin-right: 20px;
+  padding-left: 34px;
+}
+.designation:before {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-color: #ec6c53;
+  border-radius: 100%;
+}
+.growing:before {
+  background-color: #ed982a;
+}
+.early:before {
+  background-color: #f7da96;
+}
+.our-coverage .groups {
+  display: none;
+}
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .our-coverage {
+    padding: 100px 0;
+  }
+}
+@media (max-width: 1024px) {
+  .our-coverage {
+    padding: 80px 0 0;
+  }
+  .our-coverage h1 {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .content-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .map {
+    max-width: 100%;
+    margin: 0 30px 60px;
+    padding-bottom: 60px;
+  }
+  .designations {
+    left: 290px;
+  }
+  .statistics {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  .statistics-bg {
+    display: none;
+  }
+  .statistics-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: #ed982a;
+  }
+  .statistics-item {
+    width: calc((100% - 90px) / 4);
+    margin-right: 30px;
+  }
+  .statistics-item:last-child {
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .our-coverage {
+    padding-top: 60px;
+    background-color: #dadada;
+  }
+  .map {
+    margin: 0;
+    padding: 0;
+  }
+  .map-text {
+    position: relative;
+    width: auto;
+    margin: 0 30px 20px;
+  }
+  .designations {
+    position: static;
+    display: block;
+    margin: 15px 30px 40px;
+  }
+  .statistics-content {
+    padding-bottom: 10px;
+  }
+  .statistics-item {
+    width: calc(50% - 15px);
+  }
+  .statistics-item:nth-child(odd) {
+    margin: 0 15px 20px 0;
+  }
+  .statistics-item:nth-child(even) {
+    margin: 0 0 20px 15px;
+  }
+  .statistics-text {
+    margin-top: 10px;
+  }
+  .map-wrapper {
+    display: none;
+  }
+  .map-slider-wrapper  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: auto;
+    height: calc(100vw - 75px);
+    margin-bottom: 25px;
+  }
+  .map-slider-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  .map-slide__1,
+  .map-slide__2 {
+    width: calc(100vw - 60px);
+  }
+  .map-slide__1 {
+    padding: 0 15px 0 30px;
+  }
+  .map-slide__2 {
+    padding: 0 30px 0 15px;
+  }
+  .our-coverage .groups {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}

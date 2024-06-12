@@ -1,0 +1,180 @@
+@import "career/start-in-it.css";
+@import "career/our-benefits.css";
+@import "career/popup.css";
+
+/* Block 'Vacancies' */
+.vacancies {
+  padding: 80px 0 120px;
+}
+.city-img {
+  position: absolute;
+  right: -38%;
+  bottom: -10px;
+  width: 71%;
+  max-width: 1300px;
+  z-index: -1;
+}
+.vacancies-left {
+  width: 350px;
+  margin-right: 120px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.left-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 70px;
+  padding: 11px 30px 11px 20px;
+  cursor: pointer;
+}
+.left-item-active {
+  background: url('../images/career/left-item-active.png') center no-repeat;
+}
+.left-item-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.left-item-total {
+  min-width: 30px;
+  padding: 0 10px;
+  background-color: #dadada;
+  border-radius: 100px;
+}
+.vacancies-right {
+  width: 100%;
+}
+.right-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+.right-item:nth-child(2n) {
+  background-color: #fff;
+}
+.right-item-cities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.right-item-city {
+  margin-left: 10px;
+  padding: 0 10px;
+  background-color: #dadada;
+  color: #000;
+  border-radius: 100px;
+}
+.vacancies-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+.icon_analitycs {
+  background: url('../images/icons/analitycs.svg') center no-repeat;
+}
+.icon_content {
+  background: url('../images/icons/content.svg') center no-repeat;
+}
+.icon_design {
+  background: url('../images/icons/design.svg') center no-repeat;
+}
+.icon_devs {
+  background: url('../images/icons/devs.svg') center no-repeat;
+}
+.icon_finance {
+  background: url('../images/icons/finance.svg') center no-repeat;
+}
+.icon_functional {
+  background: url('../images/icons/functional.svg') center no-repeat;
+}
+.icon_management {
+  background: url('../images/icons/management.svg') center no-repeat;
+}
+.icon_marketing {
+  background: url('../images/icons/marketing.svg') center no-repeat;
+}
+.icon_product {
+  background: url('../images/icons/product.svg') center no-repeat;
+}
+.icon_qa {
+  background: url('../images/icons/qa.svg') center no-repeat;
+}
+.icon_support {
+  background: url('../images/icons/support.svg') center no-repeat;
+}
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .vacancies {
+    padding: 60px 0 100px;
+  }
+  .vacancies-left {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 1024px) {
+  .vacancies {
+    padding: 60px 30px 80px;
+  }
+  .city-img {
+    display: none;
+  }
+  .vacancies-left {
+    margin-right: 30px;
+  }
+  .right-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -ms-grid-row-align: start;
+    align-items: start;
+  }
+  .right-item-city {
+    margin: 0 10px 0 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #949494;
+    background-color: transparent;
+  }
+}
+@media (max-width: 800px) {
+  .vacancies-left,
+  .vacancies-right {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .vacancies {
+    padding: 20px 0 60px;
+  }
+  .vacancies-right {
+    display: none;
+  }
+  .vacancies-left {
+    width: 100%;
+  }
+  .right-item {
+    padding: 15px 30px;
+  }
+}

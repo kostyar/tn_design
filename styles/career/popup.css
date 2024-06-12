@@ -1,0 +1,104 @@
+/* Block 'Popup vacancy' */
+.popup-vacancy-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.popup-vacancy-left {
+  width: 430px;
+  max-height: calc(100vh - 330px);
+  padding-right: 30px;
+  overflow-y: scroll;
+}
+.popup-vacancy-right {
+  width: 445px;
+  max-height: calc(100vh - 330px);
+  margin-left: 30px;
+}
+.popup-vacancy-item {
+  margin-bottom: 60px;
+}
+.popup-vacancy-item h3 {
+  margin-bottom: 20px;
+}
+.popup-vacancy-right h3 {
+  margin-bottom: 20px;
+}
+.vacancy-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+}
+.vacancy-btn {
+  width: 100%;
+  margin: 0 15px;
+}
+.input-wrapper-descriptions {
+  height: 150px;
+}
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .input-wrapper-descriptions {
+    height: 130px;
+  }
+}
+@media (max-width: 1024px) {
+  .input-wrapper-descriptions {
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .popup-vacancy-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .popup-vacancy-left {
+    width: 100%;
+    max-height: inherit;
+    padding-right: 0;
+    overflow-y: auto;
+  }
+  .popup-vacancy-item {
+    margin-bottom: 40px;
+  }
+  .popup-vacancy-right {
+    width: 100%;
+    max-height: inherit;
+    margin-left: 0;
+  }
+  .vacancy-actions {
+    margin: 40px -15px;
+  }
+}
+@media (max-width: 767px) {
+  .popup-vacancy h3 {
+    margin-bottom: 40px;
+  }
+  .vacancy-actions {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: -20px 0 0;
+  }
+  .vacancy-btn {
+    margin: 20px 0 0;
+  }
+  .popup-vacancy-header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    z-index: 8;
+    opacity: 0.97;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=97)";
+  }
+  .popup-close-link {
+    padding: 20px 0 0 30px;
+    text-align: left;
+  }
+  .input-wrapper-descriptions {
+    height: auto;
+  }
+}

@@ -1,0 +1,25 @@
+.withScroll::-webkit-scrollbar {
+  width: 16px;
+}
+.withScroll::-webkit-scrollbar-track {
+  background-color: #f4f4f4;
+}
+.withScroll::-webkit-scrollbar-thumb {
+  background-color: #dadada;
+}
+.withScroll {
+  scrollbar-color: #dadada #f4f4f4;
+  scrollbar-face-color: #dadada;
+  scrollbar-shadow-color: #f4f4f4;
+  scrollbar-highlight-color: #f4f4f4;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .withScroll {
+    scrollbar-track-color: #f4f4f4;
+    scrollbar-highlight-color: #dadada;
+    scrollbar-shadow-color: #dadada;
+    scrollbar-face-color: #dadada;
+    scrollbar-dark-shadow-color: #dadada;
+    scrollbar-3dlight-color: #dadada;
+  }
+}

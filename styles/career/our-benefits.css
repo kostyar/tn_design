@@ -1,0 +1,274 @@
+/* Block 'Our benefits' */
+.our-benefits {
+  padding: 120px 0 60px;
+}
+.clouds {
+  position: absolute;
+  top: 90px;
+  right: 60px;
+  width: 45%;
+  max-width: 820px;
+  z-index: -1;
+}
+.our-benefits-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -15px;
+}
+.our-benefits-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 75%;
+  max-width: 855px;
+}
+
+.our-benefits-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 25%;
+  max-width: 285px;
+}
+.our-benefits-item {
+  position: relative;
+  margin: 15px;
+  overflow: hidden;
+}
+.ur-benefits__1 {
+  width: 62%;
+  max-width: 540px;
+}
+.ur-benefits__2 {
+  width: 29%;
+  max-width: 255px;
+}
+.ur-benefits__3 {
+  width: 29%;
+  max-width: 255px;
+}
+.ur-benefits__4 {
+  width: 62%;
+  max-width: 540px;
+}
+.ur-benefits__5 {
+  width: 62%;
+  max-width: 540px;
+}
+.ur-benefits__6 {
+  width: 29%;
+  max-width: 255px;
+}
+.ur-benefits__7 {
+  width: 90%;
+  max-width: 255px;
+}
+.ur-benefits__8 {
+  width: 90%;
+  max-width: 255px;
+}
+.our-benefits-item-text {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  z-index: 1;
+}
+.our-benefits-item-text__1 {
+  width: 190px;
+}
+.our-benefits-item-text__3 {
+  width: 140px;
+}
+.our-benefits-item-text__4 {
+  width: 310px;
+}
+.our-benefits-item-text__5 {
+  width: 180px;
+}
+.our-benefits-tab,
+.our-benefits-mob {
+  display: none;
+}
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .our-benefits {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 1024px) {
+  .our-benefits {
+    padding: 80px 30px 20px;
+  }
+  .clouds {
+    display: none;
+  }
+  .our-benefits-item__1,
+  .our-benefits-item__4,
+  .our-benefits-item__8 {
+    max-width: 462px;
+  }
+  .our-benefits-item__2,
+  .our-benefits-item__3,
+  .our-benefits-item__5,
+  .our-benefits-item__6,
+  .our-benefits-item__7 {
+    width: 216px;
+  }
+  .our-benefits-buttom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .our-benefits-buttom-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .our-benefits-item-text {
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .our-benefits-web {
+    display: none;
+  }
+  .our-benefits-tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .our-benefits-wrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    max-width: 740px;
+  }
+  .our-benefits-item-text__1 {
+    width: 196px;
+  }
+  .our-benefits-item-text__4 {
+    width: 255px;
+  }
+  .our-benefits-item-text {
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .our-benefits-item {
+    margin: 0 30px;
+  }
+  .our-benefits-item-text {
+    top: 20px;
+  }
+  .our-benefits-wrapper {
+    margin: 0;
+  }
+  .our-benefits {
+    padding: 60px 0 0;
+  }
+  .our-benefits-tab {
+    display: none;
+  }
+  .our-benefits-mob {
+    display: block;
+  }
+  .item-mob h3 {
+    padding: 20px 30px;
+  }
+  .item-mob {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .item-mob:last-child {
+    margin-bottom: 0;
+  }
+  .item-mob__1 {
+    background-image: url(../../images/career/our-benefits/mob/image-wrapper__1.svg);
+  }
+  .item-mob__2 {
+    background-image: url(../../images/career/our-benefits/mob/image-wrapper__2.svg);
+  }
+  .item-mob__3 {
+    background-image: url(../../images/career/our-benefits/mob/image-wrapper__3.svg);
+  }
+  .item-mob__4 {
+    background-image: url(../../images/career/our-benefits/mob/image-wrapper__4.svg);
+  }
+  .item-mob__5 {
+    background-image: url(../../images/career/our-benefits/mob/image-wrapper__5.svg);
+  }
+  .item-mob__6 {
+    background-image: url(../../images/career/our-benefits/mob/image-wrapper__6.svg);
+  }
+  .item-mob__7 {
+    background-image: url(../../images/career/our-benefits/mob/image-wrapper__7.svg);
+  }
+  .item-mob__8 {
+    background-image: url(../../images/career/our-benefits/mob/image-wrapper__8.svg);
+  }
+  .item-mob-img__1 {
+    margin: 0 30px;
+  }
+  .item-mob-img__2 {
+    margin: 0 40px 30px;
+  }
+  .item-mob-img__3 {
+    width: 50%;
+    margin: -70px 20px 20px auto;
+  }
+  .item-mob__4 h3 {
+    width: 77%;
+  }
+  .item-mob-img__5 {
+    margin: auto 30px 30px;
+  }
+  .item-mob-img__6 {
+    width: 36%;
+    margin: -70px 0 20px auto;
+  }
+  .item-mob__8 h3 {
+    width: 80%;
+  }
+  .item-mob-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .copyright-wrapper {
+    padding: 60px 30px 40px;
+  }
+}

@@ -1,0 +1,108 @@
+.our-history-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.our-history-left {
+  margin-right: 15px;
+}
+.our-history-right {
+  margin-left: 15px;
+}
+.our-history-left {
+  width: 445px;
+}
+.our-history {
+  background-color: #f4f4f4;
+}
+.our-history-title {
+  margin-bottom: 10px;
+}
+.our-history-sub-title {
+  margin: 10px 0;
+}
+.years-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.years {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 40px;
+}
+.year {
+  position: relative;
+  margin-right: 10px;
+}
+.year:last-child {
+  margin-right: 0;
+}
+.year-active {
+  color: #ec6c53;
+}
+.year-arrow__bottom {
+  display: none;
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 5px);
+}
+.year-active .year-arrow__bottom {
+  display: block;
+}
+.our-history-img {
+  position: relative;
+  margin-top: -73px;
+  z-index: 1;
+}
+@media (max-width: 1024px) {
+  .our-history {
+    background-color: #f4f4f4;
+  }
+  .our-history-left,
+  .our-history-right {
+    width: 50%;
+  }
+  .our-history-img {
+    margin-top: -20px;
+  }
+  .years-wrapper {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .our-history-img {
+    margin-top: 0;
+  }
+  .our-history-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .our-history-left,
+  .our-history-right {
+    width: 100%;
+    margin: 0;
+  }
+  .our-history-title {
+    margin-bottom: 20px;
+  }
+  .our-history-sub-title {
+    margin: 20px 0;
+  }
+  .years-wrapper {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .years {
+    margin: 0;
+  }
+}

@@ -1,0 +1,59 @@
+@import "about-us/mission.css";
+@import "about-us/key-figures.css";
+@import "about-us/our-history.css";
+@import "about-us/our-life.css";
+@import "about-us/popup.css";
+
+/* Block 'About us' */
+.about-us {
+  padding: 80px 0 120px;
+}
+.about-us p {
+  margin-bottom: 30px;
+}
+.about-us p:last-child {
+  margin-bottom: 0;
+}
+.about-us-people {
+  position: absolute;
+  top: -110px;
+  right: 0;
+  width: 32%;
+  max-width: 350px;
+  z-index: 1;
+}
+.clouds {
+  position: absolute;
+  top: 50px;
+  right: -120px;
+  width: 35%;
+  max-width: 640px;
+  z-index: -1;
+}
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .about-us {
+    padding: 60px 0 100px;
+  }
+}
+@media (max-width: 1024px) {
+  .about-us {
+    padding: 60px 30px 80px;
+  }
+  .about-us-people {
+    position: static;
+    width: calc(50% - 15px);
+    margin: 0 auto auto 15px;
+  }
+  .clouds {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .about-us-people {
+    width: 100%;
+    margin: auto;
+  }
+  .about-us {
+    padding: 20px 30px 60px;
+  }
+}

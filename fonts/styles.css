@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Sarabun';
+  src: url(./Sarabun-SemiBold.eot);
+  src: url(./Sarabun-SemiBold.eot?#iefix) format('embedded-opentype'),
+       url(./Sarabun-SemiBold.svg#Sarabun-SemiBold) format('svg'),
+       url(./Sarabun-SemiBold.ttf) format('truetype'),
+       url(./Sarabun-SemiBold.woff) format('woff'),
+       url(./Sarabun-SemiBold.woff2) format('woff2'),
+       url(./Sarabun-SemiBold.otf) format('otf');
+  font-display: fallback;
+}
+@font-face {
+    font-family: 'Rubik';
+    src: url(./Rubik-VariableFont_wght.eot);
+    src: url(./Rubik-VariableFont_wght.eot?#iefix) format('embedded-opentype'),
+        url(./Rubik-VariableFont_wght.otf) format('otf'),
+        url(./Rubik-VariableFont_wght.svg#Rubik-VariableFont_wght) format('svg'),
+        url(./Rubik-VariableFont_wght.ttf) format('truetype'),
+        url(./Rubik-VariableFont_wght.woff) format('woff'),
+        url(./Rubik-VariableFont_wght.woff2) format('woff2');
+    font-display: fallback;
+}
